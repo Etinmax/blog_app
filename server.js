@@ -12,7 +12,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/posts', postRoutes);
 app.use('/api/comments', commentRoutes);
 
-const PORT = process.env.PORT || 6001;
+const PORT = process.env.PORT || 6000;
 
 const startServer = async () => {
   await connectDB();
